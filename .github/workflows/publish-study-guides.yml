@@ -1,0 +1,22 @@
+name: 发布从零学习辅导课程
+on:
+  push:
+    paths: ['incoming/study-guides/ready.json']
+permissions:
+  contents: write
+concurrency:
+  group: publish-study-guides
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 校验课程并发布附件
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/publish_study_guides.py
+      - name: 更新App云课程目录
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/publish_catalog.py
