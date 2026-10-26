@@ -1,0 +1,12 @@
+{
+  "parts": 15,
+  "sha256": "598bd9289e213cc53cf119fdfc8a96e27806f9ebe0435f9e3db59e8e223d03e7",
+  "assets": {
+    "mathematical_statistics-v2.zip": "9f286067ea8173e36d7d322aa358c40520a34a78c778950873ce02a10c9021e4",
+    "engineering_fatigue_fracture-v3.zip": "55ea34ff0505fa2cb41a0a8cdb77b78c4082985df5accf76151d40e80bc43973",
+    "statistics-study-guide.md": "b03f30f4b74e5685ce38b2c5c784444a9f91c35cbf996e8e63c41f2f15a6674e",
+    "fatigue-study-guide.md": "932dbe82cdb17882d794a4b671fa9fdaf8c747363e9795c2b15612bbfb27ceba",
+    "sources-and-reading.md": "774a0f3f94b87587a1528f52d736fcfe2d482edaafa49aaa13b2c405b33d2754",
+    "content-validation.json": "39ddb0b266c1494c6568abc617b99864274bfb8788dad07c2d0f470df0d69f91"
+  }
+}
