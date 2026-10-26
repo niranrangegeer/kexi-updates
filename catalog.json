@@ -3,20 +3,20 @@
     {
       "courseId": "engineering_fatigue_fracture",
       "name": "工程疲劳与断裂",
-      "version": 2,
-      "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/v0.4.0/engineering_fatigue_fracture-v2.zip",
-      "sha256": "22cbd5764cbe7691ade6cf8f45fde3422f36c5e5989b525aea2c90f8d3c69f21",
-      "size": 173248,
-      "description": "依据用户提供的462页课件整理11章44节。知识卡及公式注明PDF页码。原PDF第264页复合裂纹章重复标为第六章，本包按前后章节顺序整理为第7章。保留基本理论与适用条件；练习为据知识点编写的自测题。 新增3幅教学示意图，图文显示需要课习0.4.0及以上。"
+      "version": 3,
+      "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/study-guides-2026-10-26/engineering_fatigue_fracture-v3.zip",
+      "sha256": "55ea34ff0505fa2cb41a0a8cdb77b78c4082985df5accf76151d40e80bc43973",
+      "size": 242714,
+      "description": "保留课件所用11章44节结构与132个知识点编号，正文改为原创辅导讲解。从应力、应变和循环载荷入门，逐步讲授疲劳、断裂与寿命预测，配推导、算例及带解答自测。保留3幅示意图，图文显示需课习0.4及以上。原课件仅用于章节组织与概念核对。"
     },
     {
       "courseId": "mathematical_statistics",
       "name": "数理统计",
-      "version": 1,
-      "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/v0.3.0/mathematical_statistics-v1.zip",
-      "sha256": "8918670f679a68c64afb643cc35aca5a16375ab01160e8f5c96a2a3ca3c4d719",
-      "size": 38084,
-      "description": "依照六章结构独立编写，覆盖统计推断、试验设计、回归与贝叶斯决策。下尾分位数约定详见公式注释；计算题采用自行作答后核对解析。"
+      "version": 2,
+      "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/study-guides-2026-10-26/mathematical_statistics-v2.zip",
+      "sha256": "9f286067ea8173e36d7d322aa358c40520a34a78c778950873ce02a10c9021e4",
+      "size": 89438,
+      "description": "保留六章结构与原知识点编号，95个主题逐条讲解。由概率与抽样基础出发，配公式推导、逐步算例、适用条件和带解答自测；公式与原题库保留。内容按通用学科体系原创编写。"
     }
   ],
   "app": {
