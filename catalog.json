@@ -3,11 +3,11 @@
     {
       "courseId": "engineering_fatigue_fracture",
       "name": "工程疲劳与断裂",
-      "version": 1,
-      "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/v0.3.0/engineering_fatigue_fracture-v1.zip",
-      "sha256": "9737b3abfadce11dfab717933a5a536407f71efffe5f99d4b2c76545aa738929",
-      "size": 55256,
-      "description": "依据用户提供的462页课件整理11章44节。知识卡及公式注明PDF页码。原PDF第264页复合裂纹章重复标为第六章，本包按前后章节顺序整理为第7章。保留基本理论与适用条件；练习为据知识点编写的自测题。"
+      "version": 2,
+      "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/v0.4.0/engineering_fatigue_fracture-v2.zip",
+      "sha256": "22cbd5764cbe7691ade6cf8f45fde3422f36c5e5989b525aea2c90f8d3c69f21",
+      "size": 173248,
+      "description": "依据用户提供的462页课件整理11章44节。知识卡及公式注明PDF页码。原PDF第264页复合裂纹章重复标为第六章，本包按前后章节顺序整理为第7章。保留基本理论与适用条件；练习为据知识点编写的自测题。 新增3幅教学示意图，图文显示需要课习0.4.0及以上。"
     },
     {
       "courseId": "mathematical_statistics",
@@ -20,11 +20,11 @@
     }
   ],
   "app": {
-    "versionCode": 3,
-    "versionName": "0.3.0",
-    "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/v0.3.0/kexi-0.3.0.apk",
-    "sha256": "fa7fdf74a0029492e9026618d9a04ea9ed0236d242833dfa981b2a0ce44d9ddd",
-    "size": 8472173,
-    "notes": "新增GitHub云课程库、保留进度更新课程、APK下载校验与系统安装入口。"
+    "versionCode": 4,
+    "versionName": "0.4.0",
+    "url": "https://github.com/niranrangegeer/kexi-updates/releases/download/v0.4.0/kexi-0.4.0.apk",
+    "sha256": "a04792d45affe919fb32d7e203a78c5811f3653f4615b2f31c22fe2ecaee36a1",
+    "size": 8504949,
+    "notes": "阅读界面焕新；继续阅读、备份恢复、课程更新前备份回滚、五分钟练习、理解反馈和图文课程。图文课程请先升级App。"
   }
 }
