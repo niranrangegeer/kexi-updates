@@ -4,7 +4,7 @@
 
 ## 安装与使用
 
-到 [Releases](https://github.com/niranrangegeer/kexi-updates/releases) 下载 kexi-0.3.0.apk，覆盖安装旧版本，不先卸载。
+到 [Releases](https://github.com/niranrangegeer/kexi-updates/releases) 下载最新 kexi-0.4.0.apk，覆盖安装旧版本，不先卸载。
 打开 App → 我的 → 云课程与软件更新 → 检查更新。下载课程后在课程管理中切换。
 课程更新保留仍存在 ID 对应的掌握度、错题和复习记录，删除的内容对应记录不保留。
 软件更新下载完成后点击安装，允许安装来源后返回再点一次；系统仍要求确认安装。
@@ -33,3 +33,11 @@ APK 必须使用原签名与 com.kexi.app 包名，versionCode 持续递增；�
 - scripts/publish_catalog.py：从非草稿、非预发布 Releases 选择每门课程最高版本与最高 APK 版本。
 - App 首次接入联网更新需要安装 0.3.0；0.1/0.2 没有联网模块。
 - GitHub 网络不可达时，已下载课程仍可离线使用。联网下载与安装尚需在实际手机和网络下验收。
+
+## 0.4 新增
+
+继续阅读、五分钟练习、理解反馈、学习记录JSON恢复、更新前内容确认与课程备份回滚。工程疲劳图文v2需要App 0.4及以上。
+
+发布附件 `course-editor.html` 为离线课程编辑器，`pc-preview-bundle.zip` 为网页交互参考。下载编辑器后本地打开即可表单编辑，导出的课程包可按上文流程发布。编辑器的LaTeX显示源码；App内渲染公式。
+
+完整用法见同批 Release 的使用说明文件。源码仅打包课习项目文件，不含签名私钥。
